@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-image: url(./images/bg-full.jpg);
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+
+
+    .main {
+      display: flex;
+      width: 2200px;
+      height: 1100px;
+      border: 1px solid white;
+    }
+
+    .left {
+      width: 1100px;
+      display: flex;
+      background-image: url(./images/main.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .content1 {
+      margin-top: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .ps4 img {
+      width: 300px;
+    }
+
+    .text1 {
+      margin: 0;
+      font-size: 50px;
+      font-weight: bolder;
+      color: white;
+      text-align: center;
+    }
+
+    .text2 {
+      margin: 0;
+      width: 500px;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="left">
+      <div class="content1">
+        <div class="ps4">
+          <img src="./images/ps4-ff7.png" alt="">
+        </div>
+        <div id="text">
+          <p class="text1">Lorem, ipsum.</p>
+          <p class="text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores consequatur ipsam dolore
+            excepturi?</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="right"></div>
+  </div>
+</body>
+
+</html>
