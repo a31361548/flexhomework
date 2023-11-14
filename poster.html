@@ -30,6 +30,7 @@
       width: 1100px;
       display: flex;
       background-image: url(./images/main.jpg);
+      background-position: -130px center;
       background-repeat: no-repeat;
       background-size: cover;
       flex-direction: column;
@@ -51,7 +52,7 @@
 
     .text1 {
       margin: 0;
-      font-size: 50px;
+      font-size: 80px;
       font-weight: bolder;
       color: white;
       text-align: center;
@@ -59,10 +60,66 @@
 
     .text2 {
       margin: 0;
-      width: 500px;
-      color: white;
-      font-size: 24px;
+      width: 600px;
+      color: rgb(231, 231, 231);
+      font-size: 35px;
       text-align: center;
+      font-weight: bold;
+    }
+
+    #up {
+      width: 1100px;
+      height: 550px;
+      background-color: #aaa;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    .text3 {
+      align-self: center;
+      width: 600px;
+    }
+
+    .text3 h1 {
+      font-size: 80px;
+      margin: 0;
+    }
+
+    .text3 p {
+      margin: 0;
+      font-size: 30px;
+    }
+
+
+    #down {
+      width: 1100px;
+      height: 550px;
+      background-color: black;
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+    }
+
+    .text4 {
+      color: white;
+      align-self: center;
+      position: absolute;
+      left: 380px;
+    }
+
+    .text4 h1 {
+      font-size: 80px;
+      margin: 0;
+    }
+
+    .text4 p {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    img {
+      height: 500px;
     }
   </style>
 </head>
@@ -82,7 +139,29 @@
       </div>
 
     </div>
-    <div class="right"></div>
+    <div class="right">
+      <div id="up">
+        <div class="text3">
+          <h1>Cloud</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officia aspernatur molestias, a, nesciunt at
+            fugit facere quae magnam reiciendis in omnis fugiat accusamus quis rerum officiis autem? Assumenda sequi
+            possimus voluptatem excepturi nesciunt modi.
+          </p>
+        </div>
+
+        <img src="./images/cloud.png" class="cloud">
+      </div>
+      <div id="down">
+        <img src="./images/tifa.png" class="tifa">
+        <div class="text4">
+          <h1>Tifa</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi pariatur fuga veritatis quos repellat
+            tempore numquam nulla neque velit! Deserunt sint, vero quidem, sit excepturi atque corporis inventore
+            voluptatum necessitatibus, hic quia possimus quae minima.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
