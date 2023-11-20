@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    #main {
+      width: 1500px;
+      height: 90vh;
+      border: 1px solid black;
+      display: flex;
+    }
+
+    #left {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      background-color: lightcoral;
+      justify-items: center;
+    }
+
+    .textleft {
+      width: 20%;
+      font-size: 48px;
+    }
+
+    #middle {
+      width: 60%;
+      height: 100%;
+      background: lightcyan;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="left">
+      <div class="textleft"> 棋盤裡 ， 車無輪 ， 馬無韁 ， 叫聲將軍提防提防</div>
+    </div>
+    <div id="middle"></div>
+    <div id="right"></div>
+  </div>
+</body>
+
+</html>
